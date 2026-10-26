@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and change the values.
+# terraform.tfvars is listed in .gitignore, so it is never committed.
+
+container_name = "terraform-nginx"
+external_port  = 8080
+environment    = "dev"
+memory_mb      = 128
+# app_secret   = "put-a-real-secret-here"   # or: export TF_VAR_app_secret="..."
